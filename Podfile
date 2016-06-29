@@ -4,18 +4,16 @@
 use_frameworks!
 
 target 'WWDCVideoApp' do
-	
-
   # Pods for WWDCVideoApp
-
-  target 'WWDCVideoAppTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'WWDCVideoAppUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
+
+target 'WWDCVideoAppTests' do
+	inherit! :search_paths
+	# Pods for testing
+end
+
+target 'WWDCVideoAppUITests' do
+	inherit! :search_paths
+	# Pods for testing
+end
+
