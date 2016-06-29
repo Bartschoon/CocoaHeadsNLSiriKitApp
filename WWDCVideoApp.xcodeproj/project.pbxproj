@@ -23,6 +23,9 @@
 		427D54381D23F5C300DDE833 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D54371D23F5C300DDE833 /* Video.swift */; };
 		427D54391D23F5C300DDE833 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D54371D23F5C300DDE833 /* Video.swift */; };
 		427D543A1D23F5C300DDE833 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D54371D23F5C300DDE833 /* Video.swift */; };
+		F70834B41D240F990031C171 /* videos.mocked.json in Resources */ = {isa = PBXBuildFile; fileRef = F70834B31D240F990031C171 /* videos.mocked.json */; };
+		F70834B51D240F990031C171 /* videos.mocked.json in Resources */ = {isa = PBXBuildFile; fileRef = F70834B31D240F990031C171 /* videos.mocked.json */; };
+		F70834B61D240F990031C171 /* videos.mocked.json in Resources */ = {isa = PBXBuildFile; fileRef = F70834B31D240F990031C171 /* videos.mocked.json */; };
 		F7CE57A41D240035003239AD /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CE57A31D240035003239AD /* videos.json */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,7 @@
 		427D54281D23F3A500DDE833 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		427D542C1D23F41A00DDE833 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 		427D54371D23F5C300DDE833 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		F70834B31D240F990031C171 /* videos.mocked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.mocked.json; sourceTree = "<group>"; };
 		F7CE57A31D240035003239AD /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +157,7 @@
 		427D54321D23F5AC00DDE833 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F70834B31D240F990031C171 /* videos.mocked.json */,
 				F7CE57A31D240035003239AD /* videos.json */,
 				427D54371D23F5C300DDE833 /* Video.swift */,
 			);
@@ -273,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				427D54031D23F35400DDE833 /* LaunchScreen.storyboard in Resources */,
+				F70834B41D240F990031C171 /* videos.mocked.json in Resources */,
 				427D54291D23F3A500DDE833 /* videos.json in Resources */,
 				F7CE57A41D240035003239AD /* videos.json in Resources */,
 				427D54001D23F35400DDE833 /* Assets.xcassets in Resources */,
@@ -285,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				427D542A1D23F3A500DDE833 /* videos.json in Resources */,
+				F70834B51D240F990031C171 /* videos.mocked.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				427D542B1D23F3A500DDE833 /* videos.json in Resources */,
+				F70834B61D240F990031C171 /* videos.mocked.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

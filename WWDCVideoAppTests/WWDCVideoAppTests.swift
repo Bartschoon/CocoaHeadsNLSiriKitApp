@@ -35,7 +35,11 @@ class WWDCVideoAppTests: XCTestCase {
     
     func testSessionsCreation()
     {
-        let sessions = Sessions()
+        let sessions = Sessions(sessionData: SessionDataMocked())
+        
+        
+        
+        
         
         
         
