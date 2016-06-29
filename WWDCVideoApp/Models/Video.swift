@@ -42,7 +42,7 @@ struct Session {
     
     func generateKeywords()
     {
-        
+         
     }
 
 
