@@ -40,12 +40,13 @@ struct Session {
     
     }
     
-    func generateKeywords()
+    mutating func generateKeywords()
     {
-         
+        if let _keywords: NSString = description
+        {
+            keywords = _keywords.components(separatedBy: " ")
+        }
     }
-
-
 }
 
 struct Sessions
