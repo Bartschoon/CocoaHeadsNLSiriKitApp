@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+<<<<<<< HEAD
+=======
+   <FileRef
+      location = "self:WWDCVideoApp.xcodeproj">
+   </FileRef>
+>>>>>>> 33a18714c04050fc83492546ca56ad14d4eb6e5f
 </Workspace>
