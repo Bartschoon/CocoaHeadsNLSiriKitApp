@@ -33,4 +33,12 @@ class WWDCVideoAppTests: XCTestCase {
         }
     }
     
+    func testSessionsCreation()
+    {
+        let sessions = Sessions()
+        
+        
+        
+    }
+    
 }
