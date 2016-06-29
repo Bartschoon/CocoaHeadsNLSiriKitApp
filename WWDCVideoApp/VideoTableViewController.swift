@@ -12,16 +12,11 @@ class VideoTableViewController: UITableViewController {
 
 //	var data = ["a","b","c","d"]
 
-	let sessions = Sessions().sessionList
+	let sessions = Sessions(sessionData: SessionData()).sessionList
 
     override func viewDidLoad() {
-        super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+		super.viewDidLoad()
 
 		tableView.delegate = self
 		tableView.dataSource = self

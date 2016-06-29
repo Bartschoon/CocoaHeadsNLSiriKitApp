@@ -13,6 +13,9 @@ class VideoPlayerViewController: UIViewController {
 
 	var activeSession: Session?
 
+	@IBOutlet weak var titleLabel: UILabel!
+
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
@@ -25,6 +28,8 @@ class VideoPlayerViewController: UIViewController {
 			print("oh oh, we hebben geen url gekregen")
 			return
 		}
+
+		titleLabel.text = activeSession?.title
 
 		let videoURL = URL(string: absoluteURL)
 
