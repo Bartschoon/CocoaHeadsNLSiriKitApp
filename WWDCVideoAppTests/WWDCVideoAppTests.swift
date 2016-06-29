@@ -36,13 +36,17 @@ class WWDCVideoAppTests: XCTestCase {
     func testSessionsCreation()
     {
         let sessions = Sessions(sessionData: SessionDataMocked())
+        let session = sessions.sessionList.first
         
-        
-        
-        
-        
-        
-        
+        XCTAssert(session?.focus.count == 2)
+        XCTAssert(session?.keywords.count == 28)
+        XCTAssertEqual(session?.title, "Intermediate Swift")
+        XCTAssertEqual(session?.track, "Tools")
+        XCTAssertEqual(session?.description, "Explore the modern features of the Swift programming language. Learn about object initialization, closures, and optionals. See how you can perform pattern matching using Swift\'s powerful switch statements.")
+        XCTAssertEqual(session?.url?.absoluteString, "http://devstreaming.apple.com/videos/wwdc/2014/403xxksrj0qs8c0/403/ref.mov")
+        XCTAssertEqual(session?.urlHD?.absoluteString, "http://devstreaming.apple.com/videos/wwdc/2014/403xxksrj0qs8c0/403/403_hd_intermediate_swift.mov")
+        XCTAssertEqual(session?.urlSD?.absoluteString, "http://devstreaming.apple.com/videos/wwdc/2014/403xxksrj0qs8c0/403/403_sd_intermediate_swift.mov")
+        XCTAssertEqual(session?.year, 2014)
     }
     
 }
