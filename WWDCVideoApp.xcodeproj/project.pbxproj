@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0A9010DF2F7CCB833BE41C47 /* Pods_WWDCVideoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA898226A73FAA1FD8B31C /* Pods_WWDCVideoApp.framework */; };
+		422BF3F11D23FF390014C111 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BF3F01D23FF390014C111 /* VideoTableViewCell.swift */; };
+		422BF3F21D23FF390014C111 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BF3F01D23FF390014C111 /* VideoTableViewCell.swift */; };
+		422BF3F31D23FF390014C111 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BF3F01D23FF390014C111 /* VideoTableViewCell.swift */; };
+		422BF3F51D24079A0014C111 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BF3F41D24079A0014C111 /* VideoPlayerViewController.swift */; };
+		422BF3F61D24079A0014C111 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BF3F41D24079A0014C111 /* VideoPlayerViewController.swift */; };
+		422BF3F71D24079A0014C111 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BF3F41D24079A0014C111 /* VideoPlayerViewController.swift */; };
 		427D53F91D23F35400DDE833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D53F81D23F35400DDE833 /* AppDelegate.swift */; };
 		427D53FB1D23F35400DDE833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D53FA1D23F35400DDE833 /* ViewController.swift */; };
 		427D53FE1D23F35400DDE833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427D53FC1D23F35400DDE833 /* Main.storyboard */; };
@@ -48,6 +54,8 @@
 /* Begin PBXFileReference section */
 		0D297BC90595FCB92F008E9C /* Pods-WWDCVideoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoAppUITests/Pods-WWDCVideoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2198A974CC0AFBA957AC576A /* Pods-WWDCVideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoApp/Pods-WWDCVideoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		422BF3F01D23FF390014C111 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		422BF3F41D24079A0014C111 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		427D53F51D23F35400DDE833 /* WWDCVideoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCVideoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D53F81D23F35400DDE833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		427D53FA1D23F35400DDE833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +139,8 @@
 				427D53F81D23F35400DDE833 /* AppDelegate.swift */,
 				427D53FA1D23F35400DDE833 /* ViewController.swift */,
 				427D542C1D23F41A00DDE833 /* VideoTableViewController.swift */,
+				422BF3F41D24079A0014C111 /* VideoPlayerViewController.swift */,
+				422BF3F01D23FF390014C111 /* VideoTableViewCell.swift */,
 				427D53FC1D23F35400DDE833 /* Main.storyboard */,
 				427D53FF1D23F35400DDE833 /* Assets.xcassets */,
 				427D54011D23F35400DDE833 /* LaunchScreen.storyboard */,
@@ -473,7 +483,9 @@
 				427D53FB1D23F35400DDE833 /* ViewController.swift in Sources */,
 				427D54381D23F5C300DDE833 /* Video.swift in Sources */,
 				427D542D1D23F41A00DDE833 /* VideoTableViewController.swift in Sources */,
+				422BF3F51D24079A0014C111 /* VideoPlayerViewController.swift in Sources */,
 				427D53F91D23F35400DDE833 /* AppDelegate.swift in Sources */,
+				422BF3F11D23FF390014C111 /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				427D540E1D23F35400DDE833 /* WWDCVideoAppTests.swift in Sources */,
+				422BF3F21D23FF390014C111 /* VideoTableViewCell.swift in Sources */,
+				422BF3F61D24079A0014C111 /* VideoPlayerViewController.swift in Sources */,
 				427D54391D23F5C300DDE833 /* Video.swift in Sources */,
 				427D542E1D23F41A00DDE833 /* VideoTableViewController.swift in Sources */,
 			);
@@ -492,6 +506,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				427D54191D23F35400DDE833 /* WWDCVideoAppUITests.swift in Sources */,
+				422BF3F31D23FF390014C111 /* VideoTableViewCell.swift in Sources */,
+				422BF3F71D24079A0014C111 /* VideoPlayerViewController.swift in Sources */,
 				427D543A1D23F5C300DDE833 /* Video.swift in Sources */,
 				427D542F1D23F41A00DDE833 /* VideoTableViewController.swift in Sources */,
 			);
