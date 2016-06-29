@@ -40,20 +40,24 @@ struct Session {
     
     }
     
-    func generateKeywords()
+    mutating func generateKeywords()
     {
-         
+        if let _keywords: NSString = description
+        {
+            keywords = _keywords.components(separatedBy: " ")
+        }
     }
-
-
 }
 
 struct Sessions
 {
     var sessionList:[Session] = [Session]()
+    var sessionData:SessionDataProtocol
     
-    init ()
+    init (sessionData:SessionDataProtocol)
     {
+        self.sessionData = sessionData
+        
         do {
             let jsonObject = try JSONSerialization.jsonObject(with: videoData(), options:[])
             parseVideoData(jsonObject: jsonObject as! NSDictionary)
@@ -63,7 +67,8 @@ struct Sessions
     }
     
     func videoData()->Data{
-        let _url = Bundle.main().urlForResource("videos", withExtension: "json")
+   
+        let _url = sessionData.url()
         
         guard let url = _url
             else {return Data()}
@@ -94,3 +99,26 @@ struct Sessions
         }
     }
 }
+
+protocol SessionDataProtocol {
+    func url()->URL?
+}
+
+struct SessionDataMocked : SessionDataProtocol {
+    func url()->URL?
+    {
+        let _url = Bundle.main().urlForResource("videos.mocked", withExtension: "json")
+        return _url
+    }
+}
+
+struct SessionData : SessionDataProtocol {
+    func url()->URL?
+    {
+        let _url = Bundle.main().urlForResource("videos", withExtension: "json")
+        return _url
+    }
+}
+
+
+

@@ -1,0 +1,16 @@
+{
+    "sessions": [{
+                 "id": 403,
+                 "title": "Intermediate Swift",
+                 "track": "Tools",
+                 "focus": ["OS X", "iOS"],
+                 "description": "Explore the modern features of the Swift programming language. Learn about object initialization, closures, and optionals. See how you can perform pattern matching using Swift's powerful switch statements.",
+                 "download_hd": "http:\/\/devstreaming.apple.com\/videos\/wwdc\/2014\/403xxksrj0qs8c0\/403\/403_hd_intermediate_swift.mov",
+                 "download_sd": "http:\/\/devstreaming.apple.com\/videos\/wwdc\/2014\/403xxksrj0qs8c0\/403\/403_sd_intermediate_swift.mov",
+                 "slides": "http:\/\/devstreaming.apple.com\/videos\/wwdc\/2014\/403xxksrj0qs8c0\/403\/403_intermediate_swift.pdf",
+                 "url": "http:\/\/devstreaming.apple.com\/videos\/wwdc\/2014\/403xxksrj0qs8c0\/403\/ref.mov",
+                 "year": 2014,
+                 "date": "2014-06-04"
+                 }],
+    "tracks": ["Tools", "Frameworks", "Services", "Media", "Core OS", "Special Events", "Graphics and Games"]
+}

@@ -23,7 +23,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoR-oR-yhb">
-                                            <frame key="frameInset" minX="26" minY="7" width="71" height="28"/>
+                                            <frame key="frameInset" minX="26" minY="7" width="322" height="28"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -46,7 +46,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ub2-9H-p6L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1134" y="132"/>
+            <point key="canvasLocation" x="1133.5999999999999" y="131.78410794602701"/>
         </scene>
         <!--Video Player View Controller-->
         <scene sceneID="Tjr-W6-DPh">
@@ -64,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sj3-mE-R8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1861" y="132"/>
+            <point key="canvasLocation" x="1921" y="132"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qsr-T1-gav">

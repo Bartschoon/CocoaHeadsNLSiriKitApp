@@ -11,6 +11,8 @@ import MediaPlayer
 
 class VideoPlayerViewController: UIViewController {
 
+	var activeSession: Session?
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
@@ -19,7 +21,12 @@ class VideoPlayerViewController: UIViewController {
 
 	func playVideo() {
 
-		let videoURL = URL(string: "http://devstreaming.apple.com/videos/wwdc/2014/403xxksrj0qs8c0/403/ref.mov")
+		guard let absoluteURL = activeSession?.url?.absoluteString else {
+			print("oh oh, we hebben geen url gekregen")
+			return
+		}
+
+		let videoURL = URL(string: absoluteURL)
 
 		let player = AVPlayer(url: videoURL!)
 		let playerLayer = AVPlayerLayer(player: player)
@@ -33,15 +40,5 @@ class VideoPlayerViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

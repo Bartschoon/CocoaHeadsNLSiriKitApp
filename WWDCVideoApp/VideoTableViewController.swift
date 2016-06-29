@@ -10,7 +10,9 @@ import UIKit
 
 class VideoTableViewController: UITableViewController {
 
-	var data = ["a","b","c","d"]
+//	var data = ["a","b","c","d"]
+
+	let sessions = Sessions().sessionList
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +42,7 @@ class VideoTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return data.count
+        return sessions.count
 
     }
 
@@ -48,18 +50,20 @@ class VideoTableViewController: UITableViewController {
 
 		let cell = tableView.dequeueReusableCell(withIdentifier: "VideoCell", for: indexPath) as! VideoTableViewCell
 
-		cell.title.text = data[indexPath.row]
+		cell.title.text = sessions[indexPath.row].title
 		
         return cell
     }
 
 	override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
 
-
-
 		if let cell = sender as? VideoTableViewCell,
 			let indexPath = tableView.indexPath(for: cell) {
-			print(indexPath.row)
+			let session = sessions[indexPath.row]
+
+			// Create a new variable to store the instance of PlayerTableViewController
+			let destinationVC = segue.destinationViewController as? VideoPlayerViewController
+			destinationVC?.activeSession = session
 		}
 
 	}
