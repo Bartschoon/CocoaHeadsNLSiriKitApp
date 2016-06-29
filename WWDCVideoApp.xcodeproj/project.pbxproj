@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9010DF2F7CCB833BE41C47 /* Pods_WWDCVideoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA898226A73FAA1FD8B31C /* Pods_WWDCVideoApp.framework */; };
 		427D53F91D23F35400DDE833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D53F81D23F35400DDE833 /* AppDelegate.swift */; };
 		427D53FB1D23F35400DDE833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D53FA1D23F35400DDE833 /* ViewController.swift */; };
 		427D53FE1D23F35400DDE833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427D53FC1D23F35400DDE833 /* Main.storyboard */; };
@@ -24,8 +23,7 @@
 		427D54381D23F5C300DDE833 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D54371D23F5C300DDE833 /* Video.swift */; };
 		427D54391D23F5C300DDE833 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D54371D23F5C300DDE833 /* Video.swift */; };
 		427D543A1D23F5C300DDE833 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D54371D23F5C300DDE833 /* Video.swift */; };
-		5CDACBC9E6BA1EDE2018634F /* Pods_WWDCVideoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8736B2D3A2D0DE0E90871C /* Pods_WWDCVideoAppUITests.framework */; };
-		F947BE94A9EEB1F640FABE4D /* Pods_WWDCVideoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D828A23180C3DE96170FE1BB /* Pods_WWDCVideoAppTests.framework */; };
+		F7CE57A41D240035003239AD /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CE57A31D240035003239AD /* videos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D297BC90595FCB92F008E9C /* Pods-WWDCVideoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoAppUITests/Pods-WWDCVideoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2198A974CC0AFBA957AC576A /* Pods-WWDCVideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoApp/Pods-WWDCVideoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		427D53F51D23F35400DDE833 /* WWDCVideoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCVideoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D53F81D23F35400DDE833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		427D53FA1D23F35400DDE833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,13 +60,7 @@
 		427D54281D23F3A500DDE833 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		427D542C1D23F41A00DDE833 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 		427D54371D23F5C300DDE833 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
-		70FDB4D2F2D5769E08D81DEA /* Pods-WWDCVideoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoAppTests/Pods-WWDCVideoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFCA898226A73FAA1FD8B31C /* Pods_WWDCVideoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWDCVideoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF8736B2D3A2D0DE0E90871C /* Pods_WWDCVideoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWDCVideoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D58617EC125F1A54B35659FC /* Pods-WWDCVideoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoAppTests/Pods-WWDCVideoAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		D828A23180C3DE96170FE1BB /* Pods_WWDCVideoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWDCVideoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF9F25D8A6C513CF06582B15 /* Pods-WWDCVideoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoAppUITests/Pods-WWDCVideoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFA2EFBD3DD93D9FE4752408 /* Pods-WWDCVideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDCVideoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDCVideoApp/Pods-WWDCVideoApp.release.xcconfig"; sourceTree = "<group>"; };
+		F7CE57A31D240035003239AD /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9010DF2F7CCB833BE41C47 /* Pods_WWDCVideoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F947BE94A9EEB1F640FABE4D /* Pods_WWDCVideoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CDACBC9E6BA1EDE2018634F /* Pods_WWDCVideoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +95,6 @@
 				427D540C1D23F35400DDE833 /* WWDCVideoAppTests */,
 				427D54171D23F35400DDE833 /* WWDCVideoAppUITests */,
 				427D53F61D23F35400DDE833 /* Products */,
-				4D87133908A6AEEF7296685C /* Pods */,
-				D34B70CDB5D9BE95F791BC9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,32 +153,10 @@
 		427D54321D23F5AC00DDE833 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F7CE57A31D240035003239AD /* videos.json */,
 				427D54371D23F5C300DDE833 /* Video.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		4D87133908A6AEEF7296685C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2198A974CC0AFBA957AC576A /* Pods-WWDCVideoApp.debug.xcconfig */,
-				EFA2EFBD3DD93D9FE4752408 /* Pods-WWDCVideoApp.release.xcconfig */,
-				70FDB4D2F2D5769E08D81DEA /* Pods-WWDCVideoAppTests.debug.xcconfig */,
-				D58617EC125F1A54B35659FC /* Pods-WWDCVideoAppTests.release.xcconfig */,
-				DF9F25D8A6C513CF06582B15 /* Pods-WWDCVideoAppUITests.debug.xcconfig */,
-				0D297BC90595FCB92F008E9C /* Pods-WWDCVideoAppUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D34B70CDB5D9BE95F791BC9C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AFCA898226A73FAA1FD8B31C /* Pods_WWDCVideoApp.framework */,
-				D828A23180C3DE96170FE1BB /* Pods_WWDCVideoAppTests.framework */,
-				CF8736B2D3A2D0DE0E90871C /* Pods_WWDCVideoAppUITests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +166,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D541D1D23F35400DDE833 /* Build configuration list for PBXNativeTarget "WWDCVideoApp" */;
 			buildPhases = (
-				B143B12C5D8F5D3F3A40024D /* 📦 Check Pods Manifest.lock */,
 				427D53F11D23F35400DDE833 /* Sources */,
 				427D53F21D23F35400DDE833 /* Frameworks */,
 				427D53F31D23F35400DDE833 /* Resources */,
-				CD027DEB6CF62A3A6A3C7681 /* 📦 Embed Pods Frameworks */,
-				E2DC8BD8B7059A368BE551EA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,12 +183,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D54201D23F35400DDE833 /* Build configuration list for PBXNativeTarget "WWDCVideoAppTests" */;
 			buildPhases = (
-				3D8037257FCE92846C97829C /* 📦 Check Pods Manifest.lock */,
 				427D54051D23F35400DDE833 /* Sources */,
 				427D54061D23F35400DDE833 /* Frameworks */,
 				427D54071D23F35400DDE833 /* Resources */,
-				BB8097D552FC6DBB40397A07 /* 📦 Embed Pods Frameworks */,
-				100B7D970B9D222F3457A962 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,11 +201,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D54231D23F35400DDE833 /* Build configuration list for PBXNativeTarget "WWDCVideoAppUITests" */;
 			buildPhases = (
-				0178B3FE7F4787DA42B78277 /* 📦 Check Pods Manifest.lock */,
 				427D54101D23F35400DDE833 /* Sources */,
 				427D54111D23F35400DDE833 /* Frameworks */,
 				427D54121D23F35400DDE833 /* Resources */,
-				AB4D889A7D05F21C480F08D5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +274,7 @@
 			files = (
 				427D54031D23F35400DDE833 /* LaunchScreen.storyboard in Resources */,
 				427D54291D23F3A500DDE833 /* videos.json in Resources */,
+				F7CE57A41D240035003239AD /* videos.json in Resources */,
 				427D54001D23F35400DDE833 /* Assets.xcassets in Resources */,
 				427D53FE1D23F35400DDE833 /* Main.storyboard in Resources */,
 			);
@@ -341,129 +297,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0178B3FE7F4787DA42B78277 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		100B7D970B9D222F3457A962 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDCVideoAppTests/Pods-WWDCVideoAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D8037257FCE92846C97829C /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AB4D889A7D05F21C480F08D5 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDCVideoAppUITests/Pods-WWDCVideoAppUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B143B12C5D8F5D3F3A40024D /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BB8097D552FC6DBB40397A07 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDCVideoAppTests/Pods-WWDCVideoAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD027DEB6CF62A3A6A3C7681 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDCVideoApp/Pods-WWDCVideoApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2DC8BD8B7059A368BE551EA /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDCVideoApp/Pods-WWDCVideoApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		427D53F11D23F35400DDE833 /* Sources */ = {
@@ -623,7 +456,6 @@
 		};
 		427D541E1D23F35400DDE833 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2198A974CC0AFBA957AC576A /* Pods-WWDCVideoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WWDCVideoApp/Info.plist;
@@ -636,7 +468,6 @@
 		};
 		427D541F1D23F35400DDE833 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFA2EFBD3DD93D9FE4752408 /* Pods-WWDCVideoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WWDCVideoApp/Info.plist;
@@ -649,7 +480,6 @@
 		};
 		427D54211D23F35400DDE833 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70FDB4D2F2D5769E08D81DEA /* Pods-WWDCVideoAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WWDCVideoAppTests/Info.plist;
@@ -663,7 +493,6 @@
 		};
 		427D54221D23F35400DDE833 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D58617EC125F1A54B35659FC /* Pods-WWDCVideoAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WWDCVideoAppTests/Info.plist;
@@ -677,7 +506,6 @@
 		};
 		427D54241D23F35400DDE833 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF9F25D8A6C513CF06582B15 /* Pods-WWDCVideoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WWDCVideoAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -690,7 +518,6 @@
 		};
 		427D54251D23F35400DDE833 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D297BC90595FCB92F008E9C /* Pods-WWDCVideoAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WWDCVideoAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
